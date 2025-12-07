@@ -6,11 +6,12 @@
 지금 보면 코드가 많이 지저분하지만, 처음으로 WebSocket을 써서 실시간 알림을 구현했다는 점이 가장 기억에 남습니다.
 
 ### 🖼️ 스크린샷
-<img width="1013" height="635" alt="image" src="https://github.com/user-attachments/assets/cc299874-3e42-4b8c-bcf5-13e9965d93ed" />
-
+<img width="728" height="434" alt="image" src="https://github.com/user-attachments/assets/cc299874-3e42-4b8c-bcf5-13e9965d93ed" />
+<h4> 미니룸 메인화면 </h4>
 <img width="728" height="434" alt="image" src="https://github.com/user-attachments/assets/1e664c33-8983-4340-bc1e-adf4663e9d0a" />
-
-<img width="543" height="350" alt="image" src="https://github.com/user-attachments/assets/1d146abe-ccf1-4756-9cb3-6c9ca232bbb5" />
+<h4> 친구추가 알림기능 </h4>
+<img width="728" height="434" alt="image" src="https://github.com/user-attachments/assets/1d146abe-ccf1-4756-9cb3-6c9ca232bbb5" />  
+<h4> 알림 모음 </h4>
 
 ### 🚀 내가 한 일
 - WebSocket 실시간 알림 / 채팅 기능 구현
