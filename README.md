@@ -1,23 +1,46 @@
-# Clover Story 프로젝트 (팀 프로젝트 Fork)
+# Clover Story (JSP Web Project Portfolio)
 
-> Forked from [teamDeu/jspProject](https://github.com/teamDeu/jspProject)
+※ 본 저장소는 팀 프로젝트를 개인 포트폴리오 용도로 Fork하여  
+제가 담당한 기능과 경험을 중심으로 정리한 저장소입니다.
 
-팀 프로젝트에서 WebSocket 실시간 기능을 담당했던 저의 첫 풀스택 웹개발 프로젝트입니다.  
-지금 보면 코드가 많이 지저분하지만, 처음으로 WebSocket을 써서 실시간 알림을 구현했다는 점이 가장 기억에 남습니다.
+---
 
-### 🖼️ 스크린샷
-<img width="728" height="434" alt="image" src="https://github.com/user-attachments/assets/cc299874-3e42-4b8c-bcf5-13e9965d93ed" />
-<h4> 미니룸 메인화면 </h4>
-<img width="728" height="434" alt="image" src="https://github.com/user-attachments/assets/1e664c33-8983-4340-bc1e-adf4663e9d0a" />
-<h4> 친구추가 알림기능 </h4>
-<img width="728" height="434" alt="image" src="https://github.com/user-attachments/assets/1d146abe-ccf1-4756-9cb3-6c9ca232bbb5" />  
-<h4> 알림 모음 </h4>
+## 프로젝트 개요
+JSP 기반 SSR 구조로 구현한 웹 프로젝트로,  
+WebSocket을 활용한 **실시간 알림·채팅 기능**을 처음으로 적용한 프로젝트입니다.
 
-### 🚀 내가 한 일
-- WebSocket 실시간 알림 / 채팅 기능 구현
-- 미니룸 화면 개발
-- Admin 화면 개발
-- Admin API 개발
+당시에는 코드 구조나 설계가 미숙했지만,  
+실시간 통신 구조를 직접 구현하며 서버–클라이언트 흐름을 이해하는 계기가 되었습니다.
 
-### 🛠️ 기술 스택
-JSP + WebSocket + MySQL
+---
+
+## 담당 역할
+- WebSocket 기반 실시간 알림 기능 구현
+- WebSocket 기반 채팅 기능 구현
+- 미니룸 메인 화면 개발
+- Admin 화면 및 Admin API 개발
+
+---
+
+## 구현 기능
+- 사용자 간 실시간 알림 전달
+- 친구 추가 시 즉시 알림 처리
+- 실시간 채팅 기능
+- 관리자 전용 화면 및 관리 API
+
+---
+
+## 사용 기술
+- JSP
+- WebSocket
+- MySQL
+
+---
+
+## 느낀 점
+첫 팀 프로젝트로,  
+**실시간 기능을 직접 구현하며 서버와 클라이언트가 연결되는 구조를 체감**할 수 있었습니다.
+
+현재 기준으로 보면 코드 품질이나 구조는 아쉬운 부분이 많지만,  
+이 프로젝트를 통해 이후 Spring 기반 프로젝트와 REST API 구조를 이해하는 데  
+기초가 되는 경험을 쌓을 수 있었습니다.
